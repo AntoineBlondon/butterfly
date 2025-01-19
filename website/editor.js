@@ -306,7 +306,7 @@ async function loadLessonFromFile(filePath) {
 document.addEventListener("DOMContentLoaded", () => {
     updateSnippetList();
     createTab(); // Create the first default tab
-    loadLessonFromFile("lessons/lesson1.json");
+    loadLessonFromFile("lessons/dictionaries.json");
 });
 
 // Add event listeners

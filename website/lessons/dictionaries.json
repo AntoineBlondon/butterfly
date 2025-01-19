@@ -1,0 +1,14 @@
+{
+    "title": "Dictionaries",
+    "description": "A dict is an object that stores a collection of key-value pairs.\nEach key is unique and is used to access its corresponding value.",
+    "tabs": [
+        {
+            "name": "Creating",
+            "content": "# Example 1: Creating a dict\nmy_dict = {'a': 1, 'b': 2}\nprint(my_dict)"
+        },
+        {
+            "name": "Accessing",
+            "content": "# Example 2: Accessing a value\nmy_dict = {'a': 1, 'b': 2}\nprint(my_dict['a'])\nprint(my_dict.get('b'))"
+        }
+    ]
+}
