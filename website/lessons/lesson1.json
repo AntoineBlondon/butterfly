@@ -1,0 +1,14 @@
+{
+    "title": "Introduction to Variables",
+    "description": "Learn how to use variables in Python. Variables allow you to store data and use it later.",
+    "tabs": [
+        {
+            "name": "Example 1",
+            "content": "# Example 1: Assigning a value to a variable\nx = 5\nprint(x)"
+        },
+        {
+            "name": "Task",
+            "content": "# Task: Create a variable named 'my_name' and assign it your name.\n# Then, print 'My name is: ' followed by the value of the variable."
+        }
+    ]
+}

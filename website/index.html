@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python 3 Code Editor with Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <h2>Write Your Python Code</h2>
+            <div id="tabs-container">
+                <div id="tabs">
+                    <!-- Tabs will be dynamically added here -->
+                </div>
+                <button id="add-tab-button">+ Add Tab</button>
+            </div>
+            <div id="editor-container">
+                <div id="editor-wrapper">
+                        <textarea id="code">
+# Write your Python code here
+print("Hello, world!")</textarea>
+                </div>
+                <div id="output" class="output-box"></div>
+            </div>
+            <br>
+            <button id="run-button">Run Code</button>
+            <button id="save-snippet-button">Save Snippet</button>
+            <input type="text" id="snippet-name" placeholder="Snippet Name" />
+            <button id="load-snippet-button">Load Snippet</button>
+            <select id="snippet-list"></select>
+            <button id="delete-snippet-button">Delete Snippet</button>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/mode/python/python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.23.2/full/pyodide.js"></script>
+    <script src="editor.js"></script>
+</body>
+</html>
